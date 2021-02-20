@@ -11,6 +11,7 @@ x-apache-airflow-base: &apache-airflow-base
     AIRFLOW__CORE__LOAD_EXAMPLES: "True"
   volumes:
     - ./dags:/opt/airflow/dags
+    - ./include:/opt/airflow/include
   depends_on:
     - postgres
     - redis

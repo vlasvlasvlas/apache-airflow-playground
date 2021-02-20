@@ -1,0 +1,9 @@
+pathlib
+requests
+imbox
+wheel
+pandas
+numpy
+sqlalchemy
+pyodbc
+psycopg2
